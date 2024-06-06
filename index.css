@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 380px;
+    width: 575px;
+    background: #374151;
+    background-size: cover;
+}
+
+@font-face {
+  font-family: CursedTimer; /* Name your font family */
+  src: url(./CursedTimer.ttf); /* Locate the .ttf file within your directory*/
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    color: white;
+    font-size: 40px;
+    margin: 20px;
+}
+
+h2 {
+    height: 120px;
+    width: 155px;
+    color: red;
+    font-size: 90px;
+    font-family: CursedTimer;
+    background-color: black;
+    border-radius: 5px;
+    margin: 20px 0px 0px 0px;
+    padding: 20px 10px 0px 10px;
+}
+
+button  {
+    display: inline-block;
+    color: white;
+    background: none;
+    font-size: 20px;
+    font-family: CursedTimer;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 25px 5px 0px 5px;
+    padding: 10px 10px;
+}
+
+.resetbtn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: red;
+    border: none;
+    margin-top: 150px;
+    padding: 15px 10px;
+    
+}
